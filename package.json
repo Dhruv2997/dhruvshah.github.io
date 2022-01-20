@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "personalPortfolio",
-  "homepage": "http://dishantsingh1998.github.io",
+  "homepage": "https://dhruvshah.github.io/",
   "version": "1.0.0",
   "scripts": {
     "build": "react-scripts build",
