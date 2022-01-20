@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\footer",
+    "\\src\\components\\ProjectCard",
+    "\\src\\components\\projectLanguages",
+    "\\src\\components\\socialMedia",
+    "\\src\\containers",
+    "\\src\\containers\\contact",
+    "\\src\\containers\\projects"
+  ],
+  "SelectedNode": "\\src\\containers\\contact\\Contact.js",
+  "PreviewInSolutionExplorer": false
+}
