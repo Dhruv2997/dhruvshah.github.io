@@ -13,10 +13,8 @@ const greeting = {
   logo_name: "Dhruv",
   nickname: "Dhruv",
   full_name: "Dhruv Shah",
-  subTitle:
-    "Full Stack Developer, Competitive Coder. Always learning.",
-  resumeLink:
-    "https://drive.google.com/drive/u/1/my-drive",
+  subTitle: "Full Stack Developer, Competitive Coder. Always learning.",
+  resumeLink: "https://drive.google.com/drive/u/1/my-drive",
   mail: "dhruvs2912d@gmail.com",
 };
 
@@ -145,8 +143,7 @@ const degrees = {
   degrees: [
     {
       title: "ISI, L'institut Supérieur d'Informatique",
-      subtitle:
-        "Post Graduation in Programming and Internet Technologies",
+      subtitle: "Post Graduation in Programming and Internet Technologies",
       logo_path: "logo.png",
       alt_name: "ISI",
       duration: "2020 - 2022",
@@ -175,8 +172,6 @@ const degrees = {
 
 const certifications = {
   certifications: [
-   
-   
     {
       title: "Python Bootcamp ",
       subtitle: "Udemy",
@@ -199,7 +194,19 @@ const experience = {
   sections: [
     {
       title: "Work Experience",
-      experiences: [ {
+      experiences: [
+        {
+          title: "Web Developer",
+          company: "MultiCIM Technologies Inc.",
+          company_url: "https://www.multicim.com/",
+          logo_path: "multicim_logo.jpg",
+          duration: "March 2022 - July 2022",
+          location: "Canada",
+          description:
+            "Worked as a React Developer on a live project, Completed different task and upload it on Git, Website is related to care chain where patient can book appointment and select the care provider and time slots and care provider can accept the request and start their session.",
+          color: "#040f26",
+        },
+        {
           title: "Application Engineer",
           company: "Tech-Robo Solutions",
           company_url: "http://tech-robo.com/",
@@ -209,7 +216,8 @@ const experience = {
           description:
             "Worked on a live project called Sapas Telematics based on tracking and monitoring clients’ vehicle and display it on the web application.",
           color: "#040f26",
-        },{
+        },
+        {
           title: "Full Stack Developer",
           company: "Drona & Jigar Enterprises Pvt. Ltd",
           company_url: "#",
@@ -219,9 +227,9 @@ const experience = {
           description:
             "Worked as a Full Stack Developer and managed many live projects.",
           color: "#040f26",
-        },],
+        },
+      ],
     },
-    
   ],
 };
 
@@ -267,7 +275,7 @@ const projects = {
           name: "JAVA",
           iconifyClass: "logos-java",
         },
-         {
+        {
           name: "MySQL",
           iconifyClass: "logos-mysql",
         },
@@ -288,11 +296,11 @@ const projects = {
       description:
         "The Objective of the project is user can select 3 options from the menu and then they also can select the toppings and according to that final bill will be generate.",
       languages: [
-       {
+        {
           name: "JAVA",
           iconifyClass: "logos-java",
         },
-         {
+        {
           name: "MySQL",
           iconifyClass: "logos-mysql",
         },
@@ -302,7 +310,8 @@ const projects = {
       id: "2",
       name: "Sapas Telematics",
       url: "http://www.sapastelematics.com/",
-      description: "The main objective is, client can see the movement of the vehicles and also they can monitor fuel level, vehicle activities, driver’s information, temperature of the products etc.",
+      description:
+        "The main objective is, client can see the movement of the vehicles and also they can monitor fuel level, vehicle activities, driver’s information, temperature of the products etc.",
       languages: [
         {
           name: "HTML5",
@@ -334,7 +343,8 @@ const projects = {
       id: "3",
       name: "WireCom India",
       url: "https://wirecomindia.com/",
-      description: "Display companies products and projects and contact information",
+      description:
+        "Display companies products and projects and contact information",
       languages: [
         {
           name: "Wordpress",
